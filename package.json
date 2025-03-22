@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "AI对话应用 - A与B",
   "scripts": {
-    "build": "echo '静态网站无需构建' && cp -r public/* dist/",
+    "build": "echo '准备构建' && mkdir -p dist && cp -r public/* dist/",
     "dev": "echo '启动开发服务器' && npx serve public"
   },
   "keywords": ["ai", "chat", "cloudflare-pages"],
